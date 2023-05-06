@@ -1,0 +1,8 @@
+C:\Users\ASUS\OneDrive\Máy tính\c#\Lab_07\Lab_07\Lab_07\bin\Debug\Lab_07.exe.config
+C:\Users\ASUS\OneDrive\Máy tính\c#\Lab_07\Lab_07\Lab_07\bin\Debug\Lab_07.exe
+C:\Users\ASUS\OneDrive\Máy tính\c#\Lab_07\Lab_07\Lab_07\bin\Debug\Lab_07.pdb
+C:\Users\ASUS\OneDrive\Máy tính\c#\Lab_07\Lab_07\Lab_07\obj\Debug\Lab_07.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Máy tính\c#\Lab_07\Lab_07\Lab_07\obj\Debug\Lab_07.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\OneDrive\Máy tính\c#\Lab_07\Lab_07\Lab_07\obj\Debug\Lab_07.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Máy tính\c#\Lab_07\Lab_07\Lab_07\obj\Debug\Lab_07.exe
+C:\Users\ASUS\OneDrive\Máy tính\c#\Lab_07\Lab_07\Lab_07\obj\Debug\Lab_07.pdb

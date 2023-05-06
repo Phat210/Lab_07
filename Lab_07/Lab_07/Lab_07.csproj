@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HinhChuNhat.cs" />
+    <Compile Include="HinhHoc.cs" />
+    <Compile Include="HinhTron.cs" />
+    <Compile Include="HinhVuong.cs" />
+    <Compile Include="MangHinhHoc.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
