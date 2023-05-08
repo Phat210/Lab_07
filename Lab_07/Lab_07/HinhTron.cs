@@ -22,5 +22,10 @@ namespace Lab_07
         {
             Console.WriteLine("Hinh tron bk= " + banKinh +"Co dien tich"+TinhDT());
         }
+        public HinhTron(string ht)
+        {
+            string[] s=ht.Split(' ');
+            banKinh = float.Parse(s[1]);
+        }
     }
 }

@@ -20,5 +20,15 @@ namespace Lab_07
         {
             return (float)(chieuDai*chieuRong)/2;
         }
+        public override void Xuat()
+        {
+            Console.WriteLine("Hinh chu nhat co chieu dai : "+chieuDai+"va chieu rong :"+chieuRong+"co dien tich :"+TinhDT());
+        }
+        public HinhChuNhat(string hcn)
+        {
+            string[] s = hcn.Split(' ');
+            chieuDai = float.Parse(s[1]);
+            chieuRong = float.Parse(s[2]);
+        }
     }
 }

@@ -8,6 +8,7 @@ namespace Lab_07
 {
     internal class HinhVuong:HinhHoc
     {
+        public float stt;
         public float canh;
         public HinhVuong() { }
         public HinhVuong(float c)
@@ -21,6 +22,12 @@ namespace Lab_07
         public override void Xuat()
         {
             Console.WriteLine("Hinh vuong canh = " + canh + "Co dien tich" + TinhDT());
+        }
+        public HinhVuong(string hv)
+        {
+            string[] s = hv.Split(' ');
+            stt = float.Parse(s[1]);
+            canh = float.Parse(s[2]);
         }
     }
 }
