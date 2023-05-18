@@ -6,15 +6,14 @@ using System.Threading.Tasks;
 
 namespace Lab_07
 {
-     class HinhHoc
+    abstract class HinhHoc
     {
-       public virtual float TinhDT()
-        {
-            return 0;
-        }
-        public virtual void Xuat()
-        {
+        public string type { get; set; }
+        
 
-        }
+        public abstract float TinhDT();
+
+        public abstract void Xuat();
+        public abstract float TinhChuVi();
     }
 }

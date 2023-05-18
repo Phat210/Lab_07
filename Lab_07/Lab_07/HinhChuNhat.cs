@@ -6,27 +6,34 @@ using System.Threading.Tasks;
 
 namespace Lab_07
 {
-    internal class HinhChuNhat:HinhHoc
+    internal class HinhChuNhat : HinhHoc
     {
-        float chieuDai;
-        float chieuRong;
+        public float chieuDai;
+        public float chieuRong;
         public HinhChuNhat() { }
-        public HinhChuNhat(float cd, float cr)
+        public HinhChuNhat( float cd, float cr)
         {
             this.chieuDai = cd;
             this.chieuRong = cr;
         }
         public override float TinhDT()
         {
-            return (float)(chieuDai*chieuRong)/2;
+            return (float)(chieuDai * chieuRong);
         }
+        public override float TinhChuVi()
+        {
+            return (float)((chieuDai + chieuRong) * 2);
+        }
+
         public override void Xuat()
         {
-            Console.WriteLine("Hinh chu nhat co chieu dai : "+chieuDai+"va chieu rong :"+chieuRong+"co dien tich :"+TinhDT());
+            Console.WriteLine("Hình chữ nhật có chiều dài = " + chieuDai + "và chiều rộng  =" + chieuRong + "có diện tích = " + TinhDT());
         }
+        
         public HinhChuNhat(string hcn)
         {
             string[] s = hcn.Split(' ');
+            type = s[0];
             chieuDai = float.Parse(s[1]);
             chieuRong = float.Parse(s[2]);
         }

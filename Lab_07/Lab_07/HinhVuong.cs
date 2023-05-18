@@ -6,28 +6,32 @@ using System.Threading.Tasks;
 
 namespace Lab_07
 {
-    internal class HinhVuong:HinhHoc
+    internal class HinhVuong : HinhHoc
     {
-        public float stt;
-        public float canh;
+        public float Canh { get; set; }
         public HinhVuong() { }
         public HinhVuong(float c)
         {
-            canh = c;
+            Canh = c;
         }
         public override float TinhDT()
         {
-            return (float)  canh * canh;
+            return (float)  Canh * Canh;
+        }
+        public override float TinhChuVi()
+        {
+            return Canh*4;
         }
         public override void Xuat()
         {
-            Console.WriteLine("Hinh vuong canh = " + canh + "Co dien tich" + TinhDT());
-        }
+            Console.WriteLine("Hình vuông cạnh = " + Canh + " Có diện tích = " + TinhDT());
+        }   
+
         public HinhVuong(string hv)
         {
             string[] s = hv.Split(' ');
-            stt = float.Parse(s[1]);
-            canh = float.Parse(s[2]);
+            type = s[0];
+            Canh = float.Parse(s[1]);
         }
     }
 }

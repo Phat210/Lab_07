@@ -18,13 +18,18 @@ namespace Lab_07
         {
             return (float)Math.PI*banKinh*banKinh;
         }
+        public override float TinhChuVi()
+        {
+            return (float)Math.PI * 2 * banKinh;
+        }
         public override void Xuat()
         {
-            Console.WriteLine("Hinh tron bk= " + banKinh +"Co dien tich"+TinhDT());
+            Console.WriteLine("Hình tròn bán kính = " + banKinh +"Có diện tích = "+TinhDT());
         }
         public HinhTron(string ht)
         {
             string[] s=ht.Split(' ');
+            type = s[0];
             banKinh = float.Parse(s[1]);
         }
     }
